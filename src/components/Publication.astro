@@ -1,0 +1,42 @@
+---
+interface Publication {
+    title: string;
+    authors: Array<string>;
+    year: number;
+    venue: string;
+    urls: Array<{ name: string; url: string }>;
+}
+
+interface Props {
+    publication: Publication;
+}
+
+const { publication } = Astro.props;
+---
+
+<div class="publication mb-5">
+    <h1 class="publication-title">
+        <strong>{publication.title}</strong>
+    </h1>
+    <h2>
+        {
+            publication.authors.map((author) =>
+                author == "Muhammad Haroon" ? (
+                    <span>
+                        <strong>{author}</strong>
+                    </span>
+                ) : (
+                    <span>{author}</span>
+                ),
+            )
+        }
+    </h2>
+    <h2>
+        {publication.venue}, {publication.year}
+    </h2>
+    <h2 class="external-links">
+        {
+            publication.urls.map(x => <a href={ x.url } target="_blank">{ x.name }</a>)
+        }
+    </h2>
+</div>

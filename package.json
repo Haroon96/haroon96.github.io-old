@@ -2,10 +2,9 @@
   "name": "haroon96.github.io",
   "version": "1.0.0",
   "description": "",
-  "main": "scripts.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "grunt && serve -l 3000 build"
+    "start": ""
   },
   "repository": {
     "type": "git",
@@ -18,9 +17,5 @@
   },
   "homepage": "https://github.com/haroon96/haroon96.github.io#readme",
   "devDependencies": {
-    "grunt-contrib-clean": "^2.0.0",
-    "grunt": "^1.4.1",
-    "grunt-bake": "^1.9.0",
-    "grunt-contrib-copy": "^1.0.0"
   }
 }

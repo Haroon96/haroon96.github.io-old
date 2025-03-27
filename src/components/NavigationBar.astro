@@ -1,22 +1,67 @@
 ---
+const { page } = Astro.props;
 ---
 <section class="section p-3 navbar">
-    <div class="container is-max-desktop is-size-4 is-flex is-align-items-center">
+    <div
+        class="container is-max-desktop is-size-4 is-flex is-align-items-center"
+    >
         <div>
             <h1 class="is-size-4">
                 <a href="/" class="ml-0 navbar-title">
-                    <span class="has-text-weight-light">Muhammad</span> <span class="has-text-weight-semibold">Haroon</span>
+                    <span class="has-text-weight-light">Muhammad</span>
+                    <span class="has-text-weight-semibold">Haroon</span>
                 </a>
             </h1>
         </div>
-        <div id="navbar-menu" class="is-size-6 is-flex navbar-menu1">
-            <a class="is-size-6 navbar-item" href="/"> about </a>
-<!--             <a class="navbar-item is-size-5" href="/publications"> Publications </a> -->
-            <a class="is-size-6 navbar-item" target='_blank' href="/public/Muhammad_Haroon_CV.pdf"> cv </a>
-            <a class="is-size-6 navbar-item" href="/photos"> photos </a>
-            <a class="is-size-6 navbar-item" href="/misc"> misc </a>
-<!--             <a class="is-size-6 navbar-item" target='_blank' href="https://nothingtohide.online"> nothingtohide </a> -->
-<!--             <a class="is-size-6 navbar-item" href="/misc"> misc </a> -->
+        <div id="navbar-menu" class="is-size-6 is-flex navbar-menu">
+            <a class="is-size-6 navbar-item" href="/" class:list={[{'is-active': page == 'about'}]}> about </a>
+            <!--             <a class="navbar-item is-size-5" href="/publications"> Publications </a> -->
+            <a
+                class="is-size-6 navbar-item"
+                target="_blank"
+                href="/Muhammad_Haroon_CV.pdf"
+            >
+                cv
+            </a>
+            <a class="is-size-6 navbar-item" href="/photos" class:list={[{'is-active': page == 'photos'}]}> photos </a>
+            <a class="is-size-6 navbar-item" href="/misc" class:list={[{'is-active': page == 'misc'}]}> misc </a>
+            <!--             <a class="is-size-6 navbar-item" target='_blank' href="https://nothingtohide.online"> nothingtohide </a> -->
+            <!--             <a class="is-size-6 navbar-item" href="/misc"> misc </a> -->
         </div>
     </div>
 </section>
+
+<style>
+    .navbar a.navbar-item {
+        color: #777;
+    }
+
+    .navbar a.navbar-title {
+        color: #4a4a4a;
+    }
+
+    .navbar a.navbar-title:hover {
+        color: black;
+    }
+
+    .navbar a {
+        margin-left: 1em;
+    }
+
+    .navbar-menu {
+        justify-content: end;
+    }
+
+    .navbar-menu a.navbar-item {
+        color: #aaa;
+    }
+
+    .navbar-menu a.navbar-item:hover,
+    .navbar-menu a.navbar-item.is-active {
+        color: var(--accent);
+    }
+
+    .navbar-menu a.navbar-item.is-active {
+        font-weight: bold;
+    }
+</style>

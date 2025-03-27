@@ -4,39 +4,17 @@
     --accent: #485fc7;
 }
 
-* {
-    font-family: var(--font-family);
+.mono-font {
+    font-family: var(--font-family-mono);
 }
 
 body {
-    display: flex;
     min-height: 100vh;
-    flex-direction: column;
+    font-family: var(--font-family);
 }
 
-.avatar img {
-    border-radius: 10% 10% 10% 10%;
-}
-
-.avatar {
-    max-width: 192px;
-}
-
-p,
-.navbar a.navbar-item {
+p {
     color: #777;
-}
-
-.navbar a.navbar-title {
-    color: #4a4a4a;
-}
-
-.navbar a.navbar-title:hover {
-    color: black;
-}
-
-.navbar a {
-    margin-left: 1em;
 }
 
 p > em,
@@ -46,61 +24,11 @@ p > a {
     font-weight: normal;
 }
 
-p {
-    font-size: 1.15rem;
-}
-
-.navbar-menu1 {
-    margin-left: auto;
-}
-
-.navbar-menu1 a.navbar-item {
-    color: #aaa;
-}
-
-.navbar-menu1 a.navbar-item:hover,
-.navbar-menu1 a.navbar-item.is-active {
-    color: var(--accent);
-}
-
-.navbar-menu1 a.navbar-item.is-active {
-    font-weight: bold;
-}
-
-footer.footer {
-    margin-top: auto;
-}
-
-ul.social-list {
-    width: 90%;
-}
-
-ul.social-list > li {
-    margin-bottom: 0.2em;
-    font-size: 0.8em;
-    text-align: right;
-}
-
-ul.social-list svg {
-    fill: #aaa;
-}
-
-ul.social-list svg:hover {
-    fill: var(--accent);
-}
-
 div.talk > h2 span:not(:last-child)::after,
 div.podcast > h2 span:not(:last-child)::after,
 div.publication > h2 span:not(:last-child)::after {
-    content: ','
+    content: ',';
 }
-
-div.talk > h2 span strong,
-div.podcast > h2 span strong,
-div.publication > h2 span strong {
-    text-decoration: underline;
-}
-
 
 div.talk > h2.external-links a,
 div.podcast > h2.external-links a,
@@ -139,15 +67,6 @@ div.news-container-see-more a {
     white-space: nowrap;
 } 
 
-.news-container {
-    overflow: hidden;
-    transition: all linear 0.1s;
-}
-
-table.news em {
-    font-style: normal;
-    font-weight: normal;
-}
 
 h1.section-title {
     font-size: 1.5rem;
@@ -160,7 +79,6 @@ h1.podcast-title strong,
 h1.publication-title strong {
     font-size: 1.125rem;
     color: var(--accent);
-
 }
 
 h1.talk-title:hover strong,

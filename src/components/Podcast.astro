@@ -1,0 +1,27 @@
+---
+interface Podcast {
+    title: string;
+    year: number;
+    host: string;
+    urls: Array<{ name: string; url: string }>;
+}
+
+interface Props {
+    podcast: Podcast;
+}
+
+const { podcast } = Astro.props;
+---
+<div class="podcast mb-5">
+    <h1 class="podcast-title">
+        <strong>{ podcast.title }</strong>
+    </h1>
+    <h2>
+        { podcast.host }, { podcast.year }
+    </h2>
+    <h2 class="external-links">
+        {
+            podcast.urls.map(url => (<a href={ url.url } target="_blank">{ url.name }</a>))
+        }
+    </h2>
+</div>

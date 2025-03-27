@@ -1,0 +1,31 @@
+---
+interface Talk {
+    title: string;
+    year: number;
+    venue: string;
+    urls: Array<{ name: string; url: string }>;
+}
+
+interface Props {
+    talk: Talk;
+}
+
+import { parseInline } from "marked";
+
+const { talk } = Astro.props;
+talk.title = await parseInline(talk.title);
+talk.venue = await parseInline(talk.venue);
+---
+<div class="talk mb-5">
+    <h1 class="talk-title">
+        <strong>{ talk.title }</strong>
+    </h1>
+    <h2>
+        <span set:html={talk.venue}></span>, { talk.year }
+    </h2>
+    <h2 class="external-links">
+        {
+            talk.urls.map(url => (<a href={ url.url } target="_blank">{ url.name }</a>))
+        }
+    </h2>
+</div>

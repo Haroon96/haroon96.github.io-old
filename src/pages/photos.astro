@@ -1,0 +1,35 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../layouts/Layout.astro";
+import NavigationBar from "../components/NavigationBar.astro";
+
+const photos = await getCollection("photos");
+---
+
+<Layout title="Photos | Muhammad Haroon">
+    <NavigationBar page="photos" />
+
+    <section class="section">
+        <div class="container is-max-desktop">
+            <h1 class="section-title mt-6">Photos</h1>
+            <p>Some photos from key events over the past few years.</p>
+            <br />
+            <div class="photo is-flex is-flex-wrap-wrap is-align-items-start">
+                {
+                    photos.map((photo, idx) => (
+                        <figure class="image is-128x128 mr-1 mt-1">
+                            <img
+                                src={`/images/photos/${ photo.data.thumbnail }`}
+                                class="js-modal-trigger"
+                                data-target="image-modal"
+                                data-src={`/images/photos/${ photo.data.photo }`}
+                                data-index={ idx }
+                                data-description={ photo.data.description }
+                            />
+                        </figure>
+                    ))
+                }
+            </div>
+        </div>
+    </section>
+</Layout>

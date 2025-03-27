@@ -11,28 +11,21 @@ interface Props {
     publication: Publication;
 }
 
+import { parseInline } from "marked";
+
 const { publication } = Astro.props;
+const authorList = publication.authors.join(', ').replace("Muhammad Haroon", "<strong>Muhammad Haroon</strong>");
+publication.venue = await parseInline(publication.venue);
+
 ---
 
 <div class="publication mb-5">
     <h1 class="publication-title">
         <strong>{publication.title}</strong>
     </h1>
+    <h2 set:html={ authorList }></h2>
     <h2>
-        {
-            publication.authors.map((author) =>
-                author == "Muhammad Haroon" ? (
-                    <span>
-                        <strong>{author}</strong>
-                    </span>
-                ) : (
-                    <span>{author}</span>
-                ),
-            )
-        }
-    </h2>
-    <h2>
-        {publication.venue}, {publication.year}
+        <span set:html={publication.venue}></span>, {publication.year}
     </h2>
     <h2 class="external-links">
         {
@@ -40,3 +33,12 @@ const { publication } = Astro.props;
         }
     </h2>
 </div>
+
+<style>
+    h2 :global(strong) {
+        text-decoration: underline;
+    }
+    .external-links {
+        font-family: var(--font-family-mono);
+    }
+</style>

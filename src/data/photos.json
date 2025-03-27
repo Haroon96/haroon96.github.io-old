@@ -1,0 +1,44 @@
+[
+  {
+    "thumbnail": "7-thumb.jpg",
+    "photo": "7.jpg",
+    "description": "09/2023 - Presenting ideas at the third ProperData Symposium - Boston, MA",
+    "id": 0
+  },
+  {
+    "thumbnail": "6-thumb.jpg",
+    "photo": "6.jpg",
+    "description": "09/2023 - Poster presentation at the third ProperData Symposium - Boston, MA",
+    "id": 1
+  },
+  {
+    "thumbnail": "5-thumb.jpg",
+    "photo": "5.jpg",
+    "description": "09/2023 - Lightning talk at the third ProperData Symposium - Boston, MA",
+    "id": 2
+  },
+  {
+    "thumbnail": "4-thumb.jpg",
+    "photo": "4.jpg",
+    "description": "12/2022 - With the NothingToHide team - Irvine, CA",
+    "id": 3
+  },
+  {
+    "thumbnail": "3-thumb.jpeg",
+    "photo": "3.jpeg",
+    "description": "11/2022 - Teaching a class on computer networks - Davis, CA",
+    "id": 4
+  },
+  {
+    "thumbnail": "2-thumb.jpg",
+    "photo": "2.jpg",
+    "description": "06/2022 - PaCSS'22 presentation at Harvard University - Cambridge, MA",
+    "id": 5
+  },
+  {
+    "thumbnail": "1-thumb.jpeg",
+    "photo": "1.jpeg",
+    "description": "11/2021 - From the first ProperData Symposium - Irvine, CA",
+    "id": 6
+  }
+]

@@ -1,0 +1,41 @@
+---
+interface News {
+    text: string;
+    month: string;
+    year: number;
+}
+
+interface Props {
+    news: News;
+}
+
+import { parseInline } from "marked";
+
+const { news } = Astro.props;
+const text = await parseInline(news.text);
+---
+
+<div class="news-item">
+    <span class="mono-font">{news.year}</span>
+    <span class="mono-font">{news.month}</span>
+    <span set:html={text} />
+</div>
+
+<style>
+    .news-item {
+        display: flex;
+    }
+    .news-item > span:first-child {
+        margin-right: 8px;
+    }
+    .news-item > span:last-child {
+        margin-left: 16px;
+    }
+    .news-item {
+        font-weight: lighter;
+    }
+    .news-item :global(strong) {
+        font-style: normal;
+        font-weight: normal;
+    }
+</style>

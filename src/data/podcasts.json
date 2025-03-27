@@ -1,0 +1,30 @@
+[
+  {
+    "title": "How Social Media Algorithms Can Foster Political Radicalization",
+    "host": "The Backdrop - A UC Davis Podcast",
+    "urls": [
+      {
+        "name": "listen",
+        "url": "https://www.ucdavis.edu/news/podcasts-and-shows/the-backdrop/episode/muhammad-haroon-social-media-algorithms-political-radicalization"
+      },
+      {
+        "name": "read",
+        "url": "https://cs.ucdavis.edu/news/do-youtube-recommendations-foster-political-radicalization"
+      }
+    ],
+    "year": 2022,
+    "id": 0
+  },
+  {
+    "title": "Offensive Privacy to Counter AdTech Surveillance",
+    "host": "Nothing to Hide - A Data Privacy Podcast",
+    "urls": [
+      {
+        "name": "listen",
+        "url": "https://open.spotify.com/episode/0UdUuze2SQJBW1aQVMlv0E?go=1&sp_cid=5b3249ab2a08a42383b2ed565e66b03c&utm_source=embed_player_p&utm_medium=desktop&nd=1"
+      }
+    ],
+    "year": 2022,
+    "id": 1
+  }
+]

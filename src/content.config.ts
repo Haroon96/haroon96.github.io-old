@@ -54,7 +54,6 @@ const podcasts = defineCollection({
 const photos = defineCollection({
     loader: file('src/data/photos.json'),
     schema: z.object({
-        thumbnail: z.string(),
         photo: z.string(),
         description: z.string()
     })
@@ -63,7 +62,6 @@ const photos = defineCollection({
 const misc = defineCollection({
     loader: file('src/data/misc.json'),
     schema: z.object({
-        thumbnail: z.string(),
         photo: z.string(),
         description: z.string()
     })

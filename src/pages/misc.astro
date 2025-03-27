@@ -20,7 +20,7 @@ const misc = await getCollection("misc");
                     misc.map((photo, idx) => (
                         <figure class="image is-128x128 mr-1 mt-1">
                             <img
-                                src={`/images/misc/${ photo.data.thumbnail }`}
+                                src={`/images/misc/thumbnail_${ photo.data.photo }`}
                                 class="js-modal-trigger"
                                 data-target="image-modal"
                                 data-src={`/images/misc/${ photo.data.photo }`}

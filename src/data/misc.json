@@ -1,360 +1,360 @@
 [
   {
-    "thumbnail": "20231205_161037-thumb.jpg",
+    
     "photo": "20231205_161037.jpg",
     "description": "12/05/2023 - St. Peter's Basilica - Vatican City",
     "id": 0
   },
   {
-    "thumbnail": "20231205_153235-thumb.jpg",
+    
     "photo": "20231205_153235.jpg",
     "description": "12/05/2023 - St. Peter's Square - Vatican City",
     "id": 1
   },
   {
-    "thumbnail": "20231204_131438-thumb.jpg",
+    
     "photo": "20231204_131438.jpg",
     "description": "12/04/2023 - Colosseum Exterior - Rome, Italy",
     "id": 2
   },
   {
-    "thumbnail": "20231204_122304-thumb.jpg",
+    
     "photo": "20231204_122304.jpg",
     "description": "12/04/2023 - Colosseum Interior - Rome, Italy",
     "id": 3
   },
   {
-    "thumbnail": "20231202_163131-thumb.jpg",
+    
     "photo": "20231202_163131.jpg",
     "description": "12/02/2023 - Sunset in Naples - Naples, Italy",
     "id": 4
   },
   {
-    "thumbnail": "20231202_153335-thumb.jpg",
+    
     "photo": "20231202_153335.jpg",
     "description": "12/02/2023 - Mt. Vesuvius from afar - Naples, Italy",
     "id": 5
   },
   {
-    "thumbnail": "20231202_133341-thumb.jpg",
+    
     "photo": "20231202_133341.jpg",
     "description": "12/02/2023 - Rooftop in Naples - Naples, Italy",
     "id": 6
   },
   {
-    "thumbnail": "20231130_192530-thumb.jpg",
+    
     "photo": "20231130_192530.jpg",
     "description": "11/30/2023 - Florence Cathedral - Florence, Italy",
     "id": 7
   },
   {
-    "thumbnail": "20231130_124142-thumb.jpg",
+    
     "photo": "20231130_124142.jpg",
     "description": "11/30/2023 - Arno River - Florence, Italy",
     "id": 8
   },
   {
-    "thumbnail": "20231130_123237-thumb.jpg",
+    
     "photo": "20231130_123237.jpg",
     "description": "11/30/2023 - Florence - Florence, Italy",
     "id": 9
   },
   {
-    "thumbnail": "20231129_152655-thumb.jpg",
+    
     "photo": "20231129_152655.jpg",
     "description": "11/29/2023 - Florence  - Florence, Italy",
     "id": 10
   },
   {
-    "thumbnail": "20231128_173610-thumb.jpg",
+    
     "photo": "20231128_173610.jpg",
     "description": "11/28/2023 - Sunset from the Church of the Sacred Heart of Jesus - Barcelona, Spain",
     "id": 11
   },
   {
-    "thumbnail": "20231128_173452-thumb.jpg",
+    
     "photo": "20231128_173452.jpg",
     "description": "11/28/2023 - View from the Church of the Sacred Heart of Jesus - Barcelona, Spain",
     "id": 12
   },
   {
-    "thumbnail": "20231128_144108-thumb.jpg",
+    
     "photo": "20231128_144108.jpg",
     "description": "11/28/2023 - La Sagrada Familia Interior - Barcelona, Spain",
     "id": 13
   },
   {
-    "thumbnail": "20231128_143804-thumb.jpg",
+    
     "photo": "20231128_143804.jpg",
     "description": "11/28/2023 - La Sagrada Familia Interior - Barcelona, Spain",
     "id": 14
   },
   {
-    "thumbnail": "20231128_143404-thumb.jpg",
+    
     "photo": "20231128_143404.jpg",
     "description": "11/28/2023 - La Sagrada Familia - Barcelona, Spain",
     "id": 15
   },
   {
-    "thumbnail": "20231128_143138-thumb.jpg",
+    
     "photo": "20231128_143138.jpg",
     "description": "11/28/2023 - La Sagrada Familia - Barcelona, Spain",
     "id": 16
   },
   {
-    "thumbnail": "20231128_112336-thumb.jpg",
+    
     "photo": "20231128_112336.jpg",
     "description": "11/28/2023 - Casa Batllo - Barcelona, Spain",
     "id": 17
   },
   {
-    "thumbnail": "20231124_172358-thumb.jpg",
+    
     "photo": "20231124_172358.jpg",
     "description": "11/24/2023 - Mosque\u2013Cathedral of C\u00f3rdoba - C\u00f3rdoba, Spain",
     "id": 18
   },
   {
-    "thumbnail": "20231123_151040-thumb.jpg",
+    
     "photo": "20231123_151040.jpg",
     "description": "11/23/2023 - Seville Cathedral - Seville, Spain",
     "id": 19
   },
   {
-    "thumbnail": "20230917_163319-thumb.jpg",
+    
     "photo": "20230917_163319.jpg",
     "description": "09/17/2023 - Boston Harbor - Boston, MA",
     "id": 20
   },
   {
-    "thumbnail": "20230330_165303-thumb.jpg",
+    
     "photo": "20230330_165303.jpg",
     "description": "03/30/2023 - Grand Canyon - Grand Canyon, AZ",
     "id": 21
   },
   {
-    "thumbnail": "20230330_163959-thumb.jpg",
+    
     "photo": "20230330_163959.jpg",
     "description": "03/30/2023 - Grand Canyon - Grand Canyon, AZ",
     "id": 22
   },
   {
-    "thumbnail": "20230330_130411-thumb.jpg",
+    
     "photo": "20230330_130411.jpg",
     "description": "03/30/2023 - Horseshoe Bend - Glen Canyon, AZ",
     "id": 23
   },
   {
-    "thumbnail": "20230330_125318-thumb.jpg",
+    
     "photo": "20230330_125318.jpg",
     "description": "03/30/2023 - Horseshoe Bend - Glen Canyon, AZ",
     "id": 24
   },
   {
-    "thumbnail": "20230329_142606-thumb.jpg",
+    
     "photo": "20230329_142606.jpg",
     "description": "03/29/2023 - Hoover Dam - NV/AZ",
     "id": 25
   },
   {
-    "thumbnail": "20230329_142554-thumb.jpg",
+    
     "photo": "20230329_142554.jpg",
     "description": "03/29/2023 - Hoover Dam - NV/AZ",
     "id": 26
   },
   {
-    "thumbnail": "20230329_125544-thumb.jpg",
+    
     "photo": "20230329_125544.jpg",
     "description": "03/29/2023 - Hoover Dam - NV/AZ",
     "id": 27
   },
   {
-    "thumbnail": "20230328_215604-thumb.jpg",
+    
     "photo": "20230328_215604.jpg",
     "description": "03/28/2023 - Eiffel Tower - Las Vegas, NV",
     "id": 28
   },
   {
-    "thumbnail": "20230326_185809-thumb.jpg",
+    
     "photo": "20230326_185809.jpg",
     "description": "03/26/2023 - Sunset Cliffs - San Diego, CA",
     "id": 29
   },
   {
-    "thumbnail": "20230326_172029-thumb.jpg",
+    
     "photo": "20230326_172029.jpg",
     "description": "03/26/2023 - Sunset Cliffs - San Diego, CA",
     "id": 30
   },
   {
-    "thumbnail": "20230326_171714-thumb.jpg",
+    
     "photo": "20230326_171714.jpg",
     "description": "03/26/2023 - Sunset Cliffs - San Diego, CA",
     "id": 31
   },
   {
-    "thumbnail": "20230318_185205-thumb.jpg",
+    
     "photo": "20230318_185205.jpg",
     "description": "02/18/2023 - Bixby Bridge - Big Sur, CA",
     "id": 32
   },
   {
-    "thumbnail": "20230318_175437-thumb.jpg",
+    
     "photo": "20230318_175437.jpg",
     "description": "02/18/2023 - Pebble Beach, CA",
     "id": 33
   },
   {
-    "thumbnail": "20230318_175414-thumb.jpg",
+    
     "photo": "20230318_175414.jpg",
     "description": "02/18/2023 - Lone Cypress - Pebble Beach, CA",
     "id": 34
   },
   {
-    "thumbnail": "20230318_154456-thumb.jpg",
+    
     "photo": "20230318_154456.jpg",
     "description": "02/18/2023 - Santa Cruz, CA",
     "id": 35
   },
   {
-    "thumbnail": "20230204_160638-thumb.jpg",
+    
     "photo": "20230204_160638.jpg",
     "description": "02/04/2023 - Golden Gate Bridge - San Francisco, CA",
     "id": 36
   },
   {
-    "thumbnail": "20221203_062647-thumb.jpg",
+    
     "photo": "20221203_062647.jpg",
     "description": "12/03/2022 - Santa Monica Pier - Los Angeles, CA",
     "id": 37
   },
   {
-    "thumbnail": "20221203_062238-thumb.jpg",
+    
     "photo": "20221203_062238.jpg",
     "description": "12/03/2022 - Santa Monica Pier - Los Angeles, CA",
     "id": 38
   },
   {
-    "thumbnail": "20221113_132507-thumb.jpg",
+    
     "photo": "20221113_132507.jpg",
     "description": "11/13/2022 - Downtown Chicago - Chicago, IL",
     "id": 39
   },
   {
-    "thumbnail": "20221111_151355-thumb.jpg",
+    
     "photo": "20221111_151355.jpg",
     "description": "11/11/2022 - Chicago Riverwalk - Chicago, IL",
     "id": 40
   },
   {
-    "thumbnail": "20220924_081841-thumb.jpg",
+    
     "photo": "20220924_081841.jpg",
     "description": "09/24/2022 - Homestead to Blue Ridge Loop - Winters, CA",
     "id": 41
   },
   {
-    "thumbnail": "20220924_075850-thumb.jpg",
+    
     "photo": "20220924_075850.jpg",
     "description": "09/24/2022 - Homestead to Blue Ridge Loop - Winters, CA",
     "id": 42
   },
   {
-    "thumbnail": "20220917_084722-thumb.jpg",
+    
     "photo": "20220917_084722.jpg",
     "description": "09/17/2022 - Homestead to Blue Ridge Loop - Winters, CA",
     "id": 43
   },
   {
-    "thumbnail": "20220917_083741-thumb.jpg",
+    
     "photo": "20220917_083741.jpg",
     "description": "09/17/2022 - Homestead to Blue Ridge Loop - Winters, CA",
     "id": 44
   },
   {
-    "thumbnail": "20220827_143153-thumb.jpg",
+    
     "photo": "20220827_143153.jpg",
     "description": "08/27/2022 - Lake Tahoe - Tahoe City, CA",
     "id": 45
   },
   {
-    "thumbnail": "20220814_145848-thumb.jpg",
+    
     "photo": "20220814_145848.jpg",
     "description": "08/14/2022 - ",
     "id": 46
   },
   {
-    "thumbnail": "20220813_143524-thumb.jpg",
+    
     "photo": "20220813_143524.jpg",
     "description": "08/13/2022 - Lake Crescent - Olympic National Park, WA",
     "id": 47
   },
   {
-    "thumbnail": "20220629_185718-thumb.jpg",
+    
     "photo": "20220629_185718.jpg",
     "description": "06/07/2022 - New York City Skyline - Hoboken, NJ",
     "id": 48
   },
   {
-    "thumbnail": "20220620_134952-thumb.jpg",
+    
     "photo": "20220620_134952.jpg",
     "description": "06/07/2022 - Philadelphia Museum of Arts - Philadelphia, PA",
     "id": 49
   },
   {
-    "thumbnail": "20220620_133029-thumb.jpg",
+    
     "photo": "20220620_133029.jpg",
     "description": "06/20/2022 - Eakins Oval - Philadelphia, PA",
     "id": 50
   },
   {
-    "thumbnail": "20220618_141312-thumb.jpg",
+    
     "photo": "20220618_141312.jpg",
     "description": "06/18/2022 - Harvard University Memorial Hall - Cambridge, MA",
     "id": 51
   },
   {
-    "thumbnail": "20220607_182218-thumb.jpg",
+    
     "photo": "20220607_182218.jpg",
     "description": "06/07/2022 - Atlanta, GA",
     "id": 52
   },
   {
-    "thumbnail": "20220607_175854-thumb.jpg",
+    
     "photo": "20220607_175854.jpg",
     "description": "06/07/2022 - Piedmont Park - Atlanta, GA",
     "id": 53
   },
   {
-    "thumbnail": "20220607_175550-thumb.jpg",
+    
     "photo": "20220607_175550.jpg",
     "description": "06/07/2022 - Piedmont Park - Atlanta, GA",
     "id": 54
   },
   {
-    "thumbnail": "20220606_185227-thumb.jpg",
+    
     "photo": "20220606_185227.jpg",
     "description": "06/06/2022 - Atlanta, GA",
     "id": 55
   },
   {
-    "thumbnail": "20180421_173731-thumb.jpg",
+    
     "photo": "20180421_173731.jpg",
     "description": "04/21/2018 - Fairy Meadows, Pakistan",
     "id": 56
   },
   {
-    "thumbnail": "20180421_150649-thumb.jpg",
+    
     "photo": "20180421_150649.jpg",
     "description": "04/21/2018 - Fairy Meadows, Pakistan",
     "id": 57
   },
   {
-    "thumbnail": "20180421_122356-thumb.jpg",
+    
     "photo": "20180421_122356.jpg",
     "description": "04/21/2018 - Fairy Meadows, Pakistan",
     "id": 58
   },
   {
-    "thumbnail": "20180421_092125-thumb.jpg",
+    
     "photo": "20180421_092125.jpg",
     "description": "04/21/2018 - Fairy Meadows, Pakistan",
     "id": 59

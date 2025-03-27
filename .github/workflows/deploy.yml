@@ -19,6 +19,8 @@ jobs:
 
       - name: Setup Python
         uses: actions/setup-python@v5
+
+      - name: Generate thumbnails
         run: |
           pip install pillow
           python scripts/generate_ids.py

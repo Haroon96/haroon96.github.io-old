@@ -2,6 +2,7 @@
 import { getCollection } from "astro:content";
 import Layout from "../layouts/Layout.astro";
 import NavigationBar from "../components/NavigationBar.astro";
+import ImageModal from "../components/ImageModal.astro";
 
 const photos = await getCollection("photos");
 ---
@@ -32,4 +33,5 @@ const photos = await getCollection("photos");
             </div>
         </div>
     </section>
+    <ImageModal />
 </Layout>
